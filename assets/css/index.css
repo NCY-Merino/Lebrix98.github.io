@@ -87,253 +87,33 @@
 
 /* Information */
 .Information {
-  align-items: center;
   background-color: #f4dfc8;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 3rem 0rem;
-  width: 100%;
-
-  .Image_Cv {
-    border: 2px dotted #000000;
-    border-radius: 25px;
-    max-width: 20rem;
-    width: 40%;
-    box-shadow: 5px 5px 5px #000000;
-  }
-
-  .Personal {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-
-    h2 {
-      font-size: 44px;
-      font-weight: 900;
-      letter-spacing: 1px;
-      margin-bottom: 2rem;
-      text-decoration: underline;
-      text-shadow: 1px 1px 1px #000000;
-    }
-
-    div {
-      display: flex;
-      flex-direction: row;
-      letter-spacing: 1px;
-
-      ul {
-        list-style: none;
-        margin-left: 2rem;
-
-        li {
-          font-size: 22px;
-          margin-bottom: 1.5rem;
-
-          a {
-            color: #000000;
-          }
-        }
-      }
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    flex-direction: column;
-    .Image_Cv {
-      max-width: 20rem;
-      width: 100%;
-    }
-    .Personal {
-      width: 100%;
-      h2 {
-        font-size: 36px;
-        margin: 2rem 0rem;
-      }
-      div {
-        flex-direction: column;
-
-        > ul {
-          > li {
-            font-size: 18px;
-          }
-        }
-      }
-    }
-  }
 }
+.no-list {
+  list-style: none;
+  padding-left: 0;
+}
+
 
 /* Resume */
 .Resume {
-  align-items: center;
   background-color: #f4eae0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 3rem 0rem;
-  width: 100%;
-
-  p {
-    font-size: 22px;
-    letter-spacing: 1px;
-    width: 60%;
-  }
-
-  img {
-    animation: spin 4s linear infinite;
-    max-width: 20rem;
-    width: 40%;
-  }
-
-  @media screen and (max-width: 500px) {
-    flex-direction: column;
-
-    p {
-      font-size: 18px;
-      width: 80%;
-    }
-
-    img {
-      width: 55%;
-      margin-top: 3rem;
-    }
-  }
 }
 
 /* Course */
 .Course {
-  align-items: center;
   background-color: #faf6f0;
-  display: flex;
-  flex-direction: column;
-  padding: 3rem 0rem;
-  width: 100%;
-
-  h2 {
-    font-size: 44px;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
-  }
-
-  div {
-    display: flex;
-    flex-direction: row;
-    letter-spacing: 1px;
-
-    ul {
-      list-style: none;
-      margin-left: 2rem;
-
-      li {
-        font-size: 18px;
-        margin-bottom: 1.5rem;
-      }
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    h2 {
-      font-size: 36px;
-      text-align: center;
-    }
-
-    div {
-      flex-direction: column;
-
-      ul {
-        margin: 0rem 1rem;
-
-        li {
-          font-size: 18px;
-          margin-bottom: 1.5rem;
-        }
-      }
-    }
-  }
 }
 
+/* Academic_Tour */
 .Academic_Tour {
-  align-items: start;
   background-color: #f4eae0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 3rem 0rem;
-  width: 100%;
-
-  aside {
-    width: 40%;
-
-    h2 {
-      font-size: 28px;
-      margin-bottom: 1rem;
-    }
-
-    article {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-
-      h4 {
-        width: 15%;
-      }
-
-      div {
-        display: flex;
-        flex-direction: column;
-        width: 85%;
-      }
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    flex-direction: column;
-    aside {
-      width: 90%;
-      margin: 0rem 1rem;
-
-      h2 {
-        font-size: 24px;
-      }
-
-      article {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-
-        h4 {
-          width: 100%;
-          margin-bottom: 0.5rem;
-        }
-
-        div {
-          display: flex;
-          flex-direction: column;
-          width: 90%;
-
-          h3,
-          p {
-            margin-bottom: 0.5rem;
-          }
-        }
-      }
-    }
-  }
 }
 
 .Footer {
   background-color: #f4dfc8;
-  display: flex;
-  font-size: 18px;
-  justify-content: center;
-  padding: 3rem 0rem;
-  width: 100%;
-
-  @media screen and (max-width: 500px) {
-    font-size: 16px;
-  }
 }
+
 
 .Float {
   border-radius: 6px 6px 6px 6px;
